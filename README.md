@@ -1,3 +1,7 @@
+Course from deeplearning.ai
+
+https://learn.deeplearning.ai/courses/building-agentic-rag-with-llamaindex
+
 # python env
 
 create llamaindex env from env/llamaindex.txt
