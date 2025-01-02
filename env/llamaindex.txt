@@ -1,0 +1,9 @@
+mamba remove --name llamaindex --all
+mamba create -n llamaindex python=3.11
+mamba activate llamaindex
+mamba install ipykernel
+python -m ipykernel install --user --name=llamaindex
+
+pip install pre-commit nbdev
+
+pip install -U llama-index-core llama-index-llms-openai llama-index-embeddings-openai llama-index-llms-azure-openai llama-index-embeddings-azure-openai
