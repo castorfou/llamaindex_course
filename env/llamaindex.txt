@@ -4,6 +4,6 @@ mamba activate llamaindex
 mamba install ipykernel
 python -m ipykernel install --user --name=llamaindex
 
-pip install pre-commit nbdev
+pip install pre-commit nbdev python-dotenv google-generativeai
 
 pip install -U llama-index-core llama-index-llms-openai llama-index-embeddings-openai llama-index-llms-azure-openai llama-index-embeddings-azure-openai
