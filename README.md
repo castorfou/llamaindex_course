@@ -1,5 +1,9 @@
 Course from deeplearning.ai
 
+
+![alt text](image.png)
+
+
 https://learn.deeplearning.ai/courses/building-agentic-rag-with-llamaindex
 
 # python env
